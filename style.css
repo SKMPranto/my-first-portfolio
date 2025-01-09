@@ -7,12 +7,12 @@
 
 /* Shared styles */
 
-.main{
+.main {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-.secondary-bg{
+.secondary-bg {
   background-color: #fff8f3;
 }
 
@@ -30,19 +30,18 @@
   color: rgb(107, 98, 98);
 }
 
-.section-title{
+.section-title {
   font-size: 45px;
   text-align: center;
   font-weight: 700;
   margin-bottom: 25px;
 }
-.section-description{
+.section-description {
   font-size: 18px;
   font-weight: 450;
   text-align: center;
   margin: 30px 0;
   line-height: 30px;
-
 }
 
 /* Header Styles or Hero Section */
@@ -133,29 +132,55 @@ nav ul li a {
 
 /* About section styles */
 
-.about{
+.about {
   width: 1140px;
   height: 480px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  border-radius:8px ;
-
+  border-radius: 8px;
 }
-.about-container{
-  background-color:white;
+.about-container {
+  background-color: white;
   max-width: 830px;
   height: 300px;
   border: 1px solid;
   border-radius: 6px;
 }
-.about-items{
+.about-items {
   display: flex;
   justify-content: space-between;
   padding: 10px 10px;
 }
-.about-item{
+.about-item {
   text-align: center;
-  
+}
+
+/* My skills section styles */
+
+.skills {
+  margin: 80px 0;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.skill {
+  background-color: antiquewhite;
+  height: 290px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px 10px #b3b2b2;
+}
+.skill-title {
+  padding: 8px 15px;
+}
+.skill-description {
+  padding: 8px 15px;
+}
+.skill-img {
+  padding: 5px 15px;
 }
