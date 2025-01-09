@@ -6,6 +6,16 @@
 }
 
 /* Shared styles */
+
+.main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.secondary-bg{
+  background-color: #fff8f3;
+}
+
 .btn-primary {
   padding: 15px 25px;
   font-size: large;
@@ -20,10 +30,24 @@
   color: rgb(107, 98, 98);
 }
 
+.section-title{
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.section-description{
+  font-size: 18px;
+  font-weight: 450;
+  text-align: center;
+  margin: 30px 0;
+  line-height: 30px;
+
+}
+
 /* Header Styles or Hero Section */
 
 .header {
-  background-color: #fff8f3;
   height: 837px;
   background-image: url("./images/developer.png"), url("./images/header_bg.png");
   background-repeat: no-repeat;
@@ -105,4 +129,33 @@ nav ul li a {
 .banner-img {
   height: 676px;
   margin-top: 58px;
+}
+
+/* About section styles */
+
+.about{
+  width: 1140px;
+  height: 480px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border-radius:8px ;
+
+}
+.about-container{
+  background-color:white;
+  max-width: 830px;
+  height: 300px;
+  border: 1px solid;
+  border-radius: 6px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.about-item{
+  text-align: center;
+  
 }
