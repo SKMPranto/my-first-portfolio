@@ -24,6 +24,8 @@
   background-color: #fd6e0a;
   border: none;
   border-radius: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .dark-2 {
@@ -171,9 +173,10 @@ nav ul li a {
 .skill {
   background-color: antiquewhite;
   height: 290px;
-  width: 200px;
+  width: 230px;
   border-radius: 10px;
   box-shadow: 5px 10px 8px 10px #b3b2b2;
+  margin-top: 10px;
 }
 .skill-title {
   padding: 8px 15px;
@@ -183,4 +186,47 @@ nav ul li a {
 }
 .skill-img {
   padding: 5px 15px;
+}
+
+/* Resume section styles */
+
+.resume {
+  margin: 100px 0;
+}
+
+.resume-title {
+  margin: 100px 0;
+}
+hr {
+  width: 500px;
+  margin: 20px 10px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.info-title {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.info-subtitle {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.info-description {
+  font-size: 16px;
+}
+
+.download-cv{
+  text-align:center;
+  margin: 100px 0;
 }
