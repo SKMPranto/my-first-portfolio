@@ -26,6 +26,7 @@
   border-radius: 5px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border: 1px solid white;
 }
 .btn-primary:hover{
   border: 1px solid #fd6e0a;
